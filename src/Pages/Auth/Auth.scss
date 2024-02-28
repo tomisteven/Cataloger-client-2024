@@ -1,0 +1,60 @@
+.auth {
+     background-image: url("../../assets/Diseño\ sin\ título1\ \(1\).png");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+
+
+
+    &__form{
+        width: 450px;
+        position: relative;
+        right: 250px;
+        top: 150px;
+        margin-top: -250px;
+        border-radius: 50px;
+        .ui.menu{
+            .item{
+                width: 50%;
+                justify-content: center;
+                background-color: #ffe7ce !important;
+                border-radius: 0 !important;
+                font-size: 15px;
+
+                &.active{
+                    font-weight: normal;
+                    border-radius: 0 !important;
+                    border-top-color: #ffaa22;
+                    background-color: #ffaa22 !important;
+
+                }
+            }
+        }
+    }
+
+
+
+}
+
+@media  only screen and (max-width: 768px) {
+    .auth{
+        .logo{
+            width: 250px;
+            height: 250px;
+            position: relative;
+            top: -150px;
+            left: -1px;
+        }
+        &__form{
+            width: 350px;
+            margin-top: -200px;
+        }
+    }
+
+
+}

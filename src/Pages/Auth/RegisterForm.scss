@@ -1,0 +1,50 @@
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .btn-color-register{
+        background-color: rgb(255, 195, 104);
+        color: rgb(0, 0, 0);
+    }
+
+    &__input{
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 10px;
+        ::placeholder{
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        border: 1px solid rgba(22, 22, 22, 0.233);
+    }
+
+    &__checkbox{
+
+        margin-bottom: 10px;
+    }
+
+    &__error {
+        color: red;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    &__errorMensaje{
+        color: red;
+        text-align: center;
+        width: 50%;
+        font-size: 0.8rem;
+        font-weight: 600;
+        border: rgba(22, 22, 22, 0.233) 1px solid;
+        padding: 5px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+
+
